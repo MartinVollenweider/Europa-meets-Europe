@@ -37,6 +37,7 @@ function draw() {
   var x = floor(random(img.width));
   var y = floor(random(img.height));
   var pix = img.get(x, y);
+	pix[3] = 125;
 	console.log(pix);
   fill(pix);
   ellipse(x, y, rms, rms);

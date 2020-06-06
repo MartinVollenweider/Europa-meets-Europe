@@ -35,5 +35,5 @@
     $dataURL = $jsonData['result']['webcams'][$randomImage]['image']['current']['icon']; // fixed URL for Details
 	$camName = str_replace('icon', 'full', $dataURL );
 
-    echo $imageName."&curCam=".$camName."&key=".vPgvq9sLzjWNfMmo2OZEekCcSWYsUuAs;    
+    echo $imageName."&curCam=".$camName."&key=".$keyCam;    
 ?>
